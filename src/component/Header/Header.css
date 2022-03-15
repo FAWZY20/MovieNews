@@ -1,0 +1,21 @@
+.header{
+    background-color: #FECC00;
+}
+
+.nav-link{
+    color: #F3764B !important ;
+    font-size: .9375rem;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connexion{
+    border-color: #F3764B !important;
+    border-radius: 0px !important;
+    background-color: #F3764B !important;
+}
