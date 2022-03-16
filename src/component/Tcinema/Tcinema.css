@@ -20,3 +20,8 @@
     color: #F3764B;
     font-size: 1.5rem;
 }
+
+.Movie-card-list{
+    display: flex;
+    flex-direction: row;
+}

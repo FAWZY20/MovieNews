@@ -1,16 +1,14 @@
+import React from 'react';
 import './Tcinema.css';
 
 
-function Tcinema() {
+function Tcinema({ movie }) {
+    const IMAGE_PATH = "https://image.tmdb.org/t/p/w500"
     return (
-        <div className='container-fluid tendance-movie' >
-            <div className='container' >
-                <div className='row'>
-                    <div className='list-movie'>
-                        <h2>TENDANCE DE LA SEMAINE DANS LA CATEGORIE FILM</h2>
-                    </div>
-                    <a href=''>Tout les films en tendance cette semaine</a>
-                </div>
+        <div className='Movie-card-list' >
+            <div className='Movie-card' >
+                {movie?.poster_path ? <img src={`${IMAGE_PATH}${movie.poster_path}`} width={300} height={400} alt="" /> : null}
+                <h5>{movie?.title}</h5>
             </div>
         </div>
     );
