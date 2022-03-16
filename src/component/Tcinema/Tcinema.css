@@ -1,0 +1,22 @@
+.title-principal-movie{
+    font-weight: bold;
+    color: #F3764B ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.tendance-movie{
+    padding-top: 5%;
+}
+
+.tendance-movie a{
+    text-decoration: none;
+    color: #F3764B;
+}
+
+.list-movie h2{
+    color: #F3764B;
+    font-size: 1.5rem;
+}

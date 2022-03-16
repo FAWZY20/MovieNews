@@ -1,6 +1,8 @@
 import './Header.css';
 import { Nav, Button } from 'react-bootstrap';
 import Logo from '../../assets/logo.png';
+import Coeur from '../../assets/coeur.png'
+
 
 function Header() {
     return (
@@ -26,7 +28,7 @@ function Header() {
                         </div>
                     </diV>
                     <div className='col-lg-3' >
-                        <Button className='connexion' href="#">Mon Compte</Button>
+                        <Button className='connexion' href="#"><span><img src={Coeur} width={15} height={15} alt="logo" /></span> Liste Favorie</Button>
                     </div>
                 </div>
             </div>
