@@ -3,7 +3,6 @@ import { Nav, Button } from 'react-bootstrap';
 import Logo from '../../assets/logo.png';
 import Coeur from '../../assets/coeur.png'
 
-
 function Header() {
     return (
         <div className='container-fluid header' >
@@ -16,19 +15,22 @@ function Header() {
                         <div>
                             <Nav defaultActiveKey="/home" as="ul">
                                 <Nav.Item as="li">
-                                    <Nav.Link href="/home">Tendance cinéma</Nav.Link>
+                                    <Nav.Link href="/">Acceuil</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link href="/home">Tendance Tv</Nav.Link>
+                                    <Nav.Link href="#">Tendance cinéma</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link href="/home">Tendance série</Nav.Link>
+                                    <Nav.Link href="#">Tendance Tv</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item as="li">
+                                    <Nav.Link href="#">Tendance série</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </div>
                     </diV>
                     <div className='col-lg-3' >
-                        <Button className='connexion' href="#"><span><img src={Coeur} width={15} height={15} alt="logo" /></span> Liste Favorie</Button>
+                        <Button className='connexion' href="/favorie"><span><img src={Coeur} width={15} height={15} alt="logo" /></span> Liste Favorie</Button>
                     </div>
                 </div>
             </div>

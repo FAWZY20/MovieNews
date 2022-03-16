@@ -1,13 +1,4 @@
 import './Tserie.css';
-import { gql, useQuery } from '@apollo/client';
-
-const GET_MOVIE = gql`
-  query GetMovie {
-    results {
-      id
-    }
-  }
-`;
 
 
 function Tserie() {
