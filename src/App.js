@@ -3,13 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from './component/globalStyles';
 import { lightTheme, darkTheme } from "./component/Themes"
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { Button } from 'react-bootstrap';
 import Header from './component/Header/Header';
 import Acceuil from "./Pages/Acceuil/Acceuil";
 import Favorie from "./Pages/Favorie/Favorie";
-import Tcinema from "./component/Tcinema/Tcinema";
-import axios from "axios";
+
 
 function App() {
 
