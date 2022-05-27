@@ -23,9 +23,6 @@ function Header() {
                                 <Nav.Item as="li">
                                     <Nav.Link href="#">Tendance Tv</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item as="li">
-                                    <Nav.Link href="#">Tendance série</Nav.Link>
-                                </Nav.Item>
                             </Nav>
                         </div>
                     </diV>

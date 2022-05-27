@@ -1,4 +1,3 @@
-import React from 'react';
 import './Tcinema.css';
 import { useState, useEffect } from 'react';
 import api from '../../api/api';
@@ -9,7 +8,7 @@ function Tcinema() {
     const IMAGE_PATH = "https://image.tmdb.org/t/p/w500"
 
     const fetchMovies = async () => {
-        const { data } = await api.get(`movie?api_key=${process.env.REACT_APP_MOVIE_API_KEY}`)
+        const { data } = await api.get(`trending/movie/day?api_key=${process.env.REACT_APP_MOVIE_API_KEY}`)
         setMovies(data.results)
     }
 

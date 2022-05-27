@@ -1,6 +1,5 @@
 import React from 'react'
 import Tcinema from '../../component/Tcinema/Tcinema';
-import Tserie from '../../component/Tserie/Tserie';
 import Ttv from '../../component/Ttv/Ttv';
 
 
@@ -11,7 +10,6 @@ function Acceuil() {
             <div className='container-fluid' >
                 <div className='container section' >
                     <Tcinema />
-                    <Tserie />
                     <Ttv />
                 </div>
             </div>
