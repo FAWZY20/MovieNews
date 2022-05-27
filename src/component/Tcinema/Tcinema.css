@@ -16,9 +16,24 @@
     color: #F3764B;
 }
 
-.list-movie h2{
+.list-title{
     color: #F3764B;
     font-size: 1.5rem;
+}
+
+.list-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    margin-right: 20px;
+    width: 200px;
+}
+
+.list-movie-title{
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .Movie-card-list{

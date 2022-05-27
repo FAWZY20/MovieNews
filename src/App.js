@@ -13,51 +13,16 @@ import axios from "axios";
 
 function App() {
 
-  const API_URL = "https://api.themoviedb.org/3"
-  const [movies, setMovies] = useState([])
-
-  const fetchMovies = async () => {
-    const { data } = await axios.get(`${API_URL}/discover/movie?api_key=aeefec76517898daa807391b7d5a2389`)
-
-    setMovies(data.results)
-  }
-
-  useEffect(() => {
-    fetchMovies()
-  }, [])
-
-  const renderMovies = () => (
-    <div className='container-fluid tendance-movie' >
-      <div className='container' >
-        <div className='row'>
-          <div className='list-movie'>
-            <h2>TENDANCE DE LA SEMAINE DANS LA CATEGORIE FILM</h2>
-            {
-              movies.map((movie) => (
-                <Tcinema
-                  key={movie.id}
-                  movie={movie}
-                />
-              ))
-            }
-          </div >
-          <a href=''>Tout les films en tendance cette semaine</a>
-        </div >
-      </div >
-    </div >
-  )
-
   const [theme, setTheme] = useState('light');
+
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
     console.log(theme);
   }
 
-
   return (
     <div>
       <Header />
-      {renderMovies()}
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <>
           <GlobalStyles />
