@@ -27,7 +27,7 @@ function Tv() {
                             movies.map((movie) => (
                                 <div className='tv-block'>
                                     <img src={`${IMAGE_PATH}${movie.poster_path}`} width={200} height={250} alt="" />
-                                    <h3 className='tv-title' >{movie.title}</h3>
+                                    <h3 className='tv-block-title' >{movie.title}</h3>
                                 </div>
                             ))
                         }

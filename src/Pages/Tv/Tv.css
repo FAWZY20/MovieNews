@@ -1,4 +1,5 @@
 .tv-title{
+    color: #F3764B !important ;
     font-weight: bold;
     text-align: center;
     margin-top: 5% !important;
@@ -17,3 +18,7 @@
     margin: 1%;
 }
 
+.tv-block-title{
+    font-size: 15px;
+    font-weight: bold;
+}
