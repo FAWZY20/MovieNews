@@ -32,7 +32,7 @@ function Ttv() {
                             ))
                         }
                     </div>
-                    <a href=''>Tout les émissions tv en tendance cette semaine</a>
+                    <a href='/tv'>Tout les émissions tv en tendance cette semaine</a>
                 </div>
             </div>
         </div>

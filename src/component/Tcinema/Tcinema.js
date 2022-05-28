@@ -31,7 +31,7 @@ function Tcinema() {
                             ))
                         }
                     </div>
-                    <a href=''>Tout les séries en tendance cette semaine</a>
+                    <a href='/cinema'>Tout les séries en tendance cette semaine</a>
                 </div>
             </div>
         </div >

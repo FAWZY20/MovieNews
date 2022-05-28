@@ -1,0 +1,25 @@
+.film-title{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5% !important;
+    margin-bottom: 5%;
+}
+
+.film-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.film-block{
+    width: 200px !important;
+    margin: 1%;
+}
+
+.film-block-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
