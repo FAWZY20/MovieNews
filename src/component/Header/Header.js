@@ -18,10 +18,10 @@ function Header() {
                                     <Nav.Link href="/">Acceuil</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link href="#">Tendance cinéma</Nav.Link>
+                                    <Nav.Link href="/cinema">Tendance cinéma</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link href="#">Tendance Tv</Nav.Link>
+                                    <Nav.Link href="/tv">Tendance Tv</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </div>

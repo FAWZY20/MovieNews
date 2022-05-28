@@ -8,6 +8,8 @@ import { Button } from 'react-bootstrap';
 import Header from './component/Header/Header';
 import Acceuil from "./Pages/Acceuil/Acceuil";
 import Favorie from "./Pages/Favorie/Favorie";
+import Tv from "./Pages/Tv/Tv";
+import Cinema from "./Pages/Cinema/Cinema";
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Acceuil />} />
               <Route path="/favorie" element={<Favorie />} />
+              <Route path="/tv" element={<Tv />} />
+              <Route path="/cinema" element={<Cinema />} />
             </Routes>
           </Router>
           <Button className='modeAffichage' onClick={themeToggler}>Mode Nuit</Button>
