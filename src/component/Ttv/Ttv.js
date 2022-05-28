@@ -16,6 +16,7 @@ function Ttv() {
     useEffect(() => {
         fetchMovies()
     }, [])
+    
     return (
         <div className='container-fluid tendance-movie' >
             <div className='container' >
